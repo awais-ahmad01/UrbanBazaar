@@ -3,12 +3,17 @@
     padding: 0px;
 }
 
+body{
+    background-color: #f0f0f0;
+}
+
 nav{
-    background-color: red;
+    background-color: rgba(255, 123, 0, 0.721);
+    /* background-color: #e7d4c5; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
+    padding: 15px 25px;
 }
 
 .search{
@@ -31,4 +36,35 @@ nav{
 
 .site-name h1{
     padding-left: 13px;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 50px;
+    column-gap: 30px;
+    padding: 40px;
+}
+
+.category-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border: 3px solid white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.category-card:hover{
+    transform: scale(1.05);
+    /* background-color: aqua; */
+    
+}
+
+.category-card img{
+    width: 260px;
+    height: 230px;
 }
