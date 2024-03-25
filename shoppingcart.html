@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>UrbanBazaar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="site-name">
+                <h4>Urban</h4>
+                <h1>Bazaar</h1>
+            </div>
+
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="Search in UrbanBazaar">
+                <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="shopping-cart">
+            <h1>SHOPPING CART</h1>
+        </div>
+
+        <hr>
+
+        
+        <div class="shoppingCart-empty">
+            <p>Checkout is Empty.</p>
+        </div>
+
+
+        <div class="shoppingCart-container">
+            <div class="shoppingCart-details">
+                <div class="product">
+                    <div class="pd-hdng">
+                        <h3>Product</h3>
+                    </div>
+                    
+                    <div class="product-details">
+    
+                    </div>
+                </div>
+    
+                <div class="quantity">
+                    <div class="qnt-hdng">
+                        <h3>Quantity</h3>
+                    </div>
+    
+                    <div class="quantity-details">
+
+                        <span id="decrement">-</span>
+                        <span id="quantity">1</span>
+                        <span id="increment">+</span>
+
+                        <!-- <button id="decrement">-</button>
+                        <input type="number" id="quantity" value="1" min="1" max="10">
+                        <button id="increment">+</button> -->
+                        
+                    </div>
+                </div>
+    
+                <div class="total">
+                    <div class="tt-hdng">
+                        <h3>Total</h3>
+                    </div>
+    
+                    <div class="total-details">
+
+                        <span>PKR <span id="total-price"></span></span>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+    
+        </div>
+
+        <hr>
+
+        <div class="checkout-shopping-container">
+           <a href="checkout.html">
+            <div class="checkout-btn">
+                <button>CHECK OUT</button>
+            </div>
+           </a>
+    
+            <a href="index.html">
+                <div class="continue-shopping">
+                    <button>CONTINUE SHOPPING</button>
+                </div>
+            </a>
+        </div>
+
+    </main>
+    
+</body>
+</html>
