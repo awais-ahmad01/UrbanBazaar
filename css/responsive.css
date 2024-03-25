@@ -1,0 +1,85 @@
+@media (min-width: 900px) and (max-width: 1150px){
+
+    .categories{
+        grid-template-columns: auto auto auto;
+        /* padding: 2.5rem 3rem; */
+
+    }
+
+    .items-list{
+
+        grid-template-columns: auto auto auto auto;
+
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+
+    .categories{
+
+        grid-template-columns: auto auto;
+        /* padding: 2.5rem 3.5rem; */
+        
+
+    }
+
+    .items-list{
+
+        grid-template-columns: auto auto auto;
+
+    }
+    
+}
+
+
+@media (min-width: 280px) and (max-width: 576px) {
+
+    .categories{
+
+        grid-template-columns: auto;
+        /* padding: 2.5rem 4rem; */
+
+    }
+
+    .items-list{
+
+        grid-template-columns: auto auto;
+
+    }
+
+    .items-list{
+        padding: 1.5rem;
+    }
+
+    nav{
+        padding: 0.9rem 1rem;
+    }
+
+    .site-name{
+        font-size: 0.8rem;
+    }
+    
+    .site-name h1{
+        padding-left: 0.5rem;
+    }
+
+    .search-icon{
+        top: 0.5rem;
+        right: 0.8rem;
+        background-color: white;
+        border: white;
+        font-size: 0.8rem;
+    }
+
+    .cart-icon{
+        font-size: 1.2rem;
+        
+    }
+
+    .search input{
+        padding: 0.2rem;
+    
+    }
+    
+}

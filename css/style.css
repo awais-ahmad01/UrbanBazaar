@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    /* background-color: rgba(255, 123, 0, 0.721); */
+    background-color: #E8751A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 1.5rem;
+}
+
+.search{
+    display: flex;
+    width: 60%;
+    position: relative;
+    /* padding: 20px; */
+}
+
+.search input{
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 10px;
+
+}
+
+.search-icon{
+    position: absolute;
+    top: 0.4rem;
+    right: 0.8rem;
+    background-color: white;
+    border: white;
+    font-size: 1rem;
+}
+
+.search-icon:hover{
+    font-size: 1.2rem;
+    top: 0.3rem;
+}
+
+
+.cart-icon{
+    font-size: 1.5rem;
+    
+}
+
+/* .cart-icon:hover{
+    background-color: ;
+} */
+
+.site-name{
+    font-size: 1.2rem;
+}
+
+.site-name h1{
+    padding-left: 0.8rem;
+}
+
+.ctg-hdng{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 3rem;
+    column-gap: 1rem;
+    padding: 2.5rem;
+
+}
+
+.category-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+    border: 3px solid white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.category-card:hover{
+    transform: scale(1.05);
+    /* background-color: aqua; */
+    
+}
+
+.category-card img{
+    /* width: 16rem; */
+    width: 80%;
+    height: 14rem;
+}
+
+.item img{
+    width: 100%;
+    height: 14rem;
+
+}
+
+.item-detail{
+    padding: 0.6rem;
+}
+
+.items-list{
+    padding: 2.5rem;
+}
+
+.items-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 1.2rem;
+    column-gap: 0.6rem;
+    list-style: none;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.deals-heading{
+    background-color: #E8751A;
+    padding: 0.6rem;
+}
+
+.deals-heading h1{
+    text-align: center;
+}
+
+.item-title{
+    margin-bottom: 0.6rem;
+
+}
+
+.item-price{
+    color: #E8751A;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+}
+
+.shop{
+    background-color: #e2a06a;
+    padding: 0.3rem;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+}
+
+.shop:hover{
+    background-color: #E8751A;
+}
+
+
+/* womens fashion page */
+
+.wmnfashn-hdng{
+    text-align: center;
+    /* background-color: #E8751A; */
+    margin-top: 1rem;
+}
+
+
+/* beauty styling */
+
+.beauty-hdng{
+
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+
+
+/* checkout styling */
+
+
+.shopping-cart{
+    margin: 1.5rem 2.8rem;
+}
+
+.shoppingCart-empty{
+    margin: 1.5rem 2.8rem;
+}
+
+.shoppingCart-container{
+    margin: 1rem 2.8rem;
+    display: none;
+    
+}
+
+
+.shoppingCart-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pd-hdng{
+    margin-bottom: 0.7rem;
+}
+
+.product-list{
+    display: flex;
+}
+
+
+.product-img img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.title-price{
+    margin-left: 1rem;
+}
+
+.item-title{
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.quantity-details{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 6rem;
+    margin-top: 1rem;
+
+}
+
+.quantity-details span{
+    font-size: 1.2rem;
+}
+
+.total-details{
+    margin-top: 1rem;
+}
+/* 
+#quantity{
+    font-size: 1.2rem;
+} */
+
+#increment{
+    cursor: pointer;
+}
+
+#decrement{
+    cursor: pointer;
+}
+
+
+.checkout-shopping-container{
+    position: absolute;
+    right: 5rem;
+    margin-top: 4rem;
+}
+
+.checkout-btn{
+    margin-bottom: 1rem;
+}
+
+.checkout-btn button{
+    padding: 0.4rem 10rem;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.checkout-btn button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.continue-shopping button{
+    padding: 0.4rem 8rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.continue-shopping button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
